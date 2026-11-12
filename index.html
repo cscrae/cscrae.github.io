@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic homepage of Rui Zheng, a master's student in Artificial Intelligence at East China Normal University.">
+  <title>Rui Zheng (郑蕊) | Academic Homepage</title>
+  <link rel="canonical" href="https://cscrae.github.io/">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #20242a;
+      --muted: #4e5663;
+      --link: #185487;
+      --rule: #d9dfe5;
+      --serif: "Times New Roman", Times, serif;
+      --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #fff;
+      color: var(--ink);
+      font: 1rem/1.7 var(--sans);
+    }
+
+    .page {
+      width: min(calc(100% - 3rem), 50rem);
+      margin-inline: auto;
+      padding-block: clamp(3rem, 8vw, 6rem) 3rem;
+    }
+
+    .profile {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) clamp(10rem, 26vw, 13.5rem);
+      align-items: center;
+      gap: clamp(1.5rem, 5vw, 3.75rem);
+      padding-block-end: 2.5rem;
+    }
+
+    h1, h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-weight: 400;
+      line-height: 1.15;
+    }
+
+    h1 {
+      font-size: clamp(2.55rem, 6vw, 3.55rem);
+      letter-spacing: -.035em;
+    }
+
+    .chinese-name {
+      display: inline-block;
+      margin-inline-start: .4em;
+      color: var(--muted);
+      font-family: "Songti SC", SimSun, "Noto Serif CJK SC", "Microsoft YaHei", serif;
+      font-size: .54em;
+      letter-spacing: .04em;
+      vertical-align: .12em;
+      white-space: nowrap;
+    }
+
+    .affiliation {
+      margin: 1rem 0 0;
+      color: var(--muted);
+    }
+
+    a {
+      color: var(--link);
+      text-decoration-thickness: .06em;
+      text-underline-offset: .19em;
+    }
+
+    a:hover {
+      color: #0d365b;
+      text-decoration-thickness: .12em;
+    }
+
+    a:focus-visible {
+      outline: 2px solid var(--link);
+      outline-offset: 4px;
+      border-radius: 2px;
+    }
+
+    .profile-photo {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: .25rem;
+      background: #f3f5f7;
+    }
+
+    .section {
+      border-top: 1px solid var(--rule);
+      padding-block: 1.5rem 1.75rem;
+    }
+
+    .section h2 {
+      font-size: 1.9rem;
+    }
+
+    .section p {
+      max-width: 69ch;
+      margin: .65rem 0 0;
+    }
+
+    .reserved {
+      min-block-size: 10rem;
+    }
+
+    @media (max-width: 38rem) {
+      .page {
+        width: calc(100% - 2.5rem);
+      }
+
+      .profile {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .profile-photo {
+        width: min(10rem, 100%);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header class="profile" aria-labelledby="name">
+      <div>
+        <h1 id="name">Rui Zheng <span class="chinese-name" lang="zh-Hans">郑蕊</span></h1>
+        <p class="affiliation">
+          Master's student in Artificial Intelligence<br>
+          <a href="https://geoai.ecnu.edu.cn/48290/list.htm">School of Geospatial Artificial Intelligence</a><br>
+          <a href="https://english.ecnu.edu.cn/">East China Normal University</a>
+        </p>
+      </div>
+      <img class="profile-photo" src="https://avatars.githubusercontent.com/u/154900545?s=400&amp;u=534103c3f5632a1ba6fcfc832def0ea8e394fb68&amp;v=4"
+           alt="GitHub profile image for Rui Zheng" width="400" height="400">
+    </header>
+
+    <section class="section" aria-labelledby="background">
+      <h2 id="background">Academic Background</h2>
+      <p>
+        I studied Artificial Intelligence at Lanzhou University, where I worked
+        on processing blurred images during my undergraduate studies.
+      </p>
+    </section>
+
+    <section class="section reserved" aria-labelledby="publications">
+      <h2 id="publications">Publications</h2>
+      <!-- Add publication entries here with the title, authors, venue, year, and links. -->
+    </section>
+
+    <section class="section reserved" aria-labelledby="experience">
+      <h2 id="experience">Experience</h2>
+      <!-- Add research, internship, or teaching experience here. -->
+    </section>
+  </main>
+</body>
+</html>
